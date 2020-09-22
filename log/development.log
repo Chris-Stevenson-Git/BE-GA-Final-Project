@@ -453,3 +453,1094 @@ Migrating to CreateHouseholdsUsers (20200922040522)
   [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "chores"[0m
   ↳ db/seeds.rb:66
   [1m[36mHousehold Load (1.6ms)[0m  [1m[34mSELECT  "households".* FROM "households" ORDER BY "households"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/" for ::1 at 2020-09-22 20:56:22 +1000
+  [1m[35m (10.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (12.6ms)
+Completed 200 OK in 63ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 20:58:27 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (5.9ms)
+Completed 200 OK in 30ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 20:58:38 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (4.6ms)
+Completed 200 OK in 27ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 20:59:09 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (4.9ms)
+Completed 200 OK in 27ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 20:59:33 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (6.4ms)
+Completed 200 OK in 24ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 20:59:36 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
+Completed 200 OK in 19ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 21:00:22 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 20ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 21:01:43 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (8.5ms)
+Completed 200 OK in 29ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 21:01:57 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (5.2ms)
+Completed 200 OK in 21ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 21:07:12 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (8.0ms)
+Completed 200 OK in 33ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 21:07:25 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 18ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 21:08:43 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (9.2ms)
+Completed 200 OK in 40ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 21:10:05 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (5.4ms)
+Completed 200 OK in 28ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 21:10:38 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 27ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 21:10:59 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (35.6ms)
+Completed 200 OK in 54ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 21:12:26 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (341.1ms)
+Completed 200 OK in 377ms (Views: 354.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 21:14:38 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (7.9ms)
+Completed 200 OK in 41ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 21:18:40 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (9.7ms)
+Completed 200 OK in 51ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-22 21:18:46 +1000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Chris/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (8.2ms)
+Completed 200 OK in 34ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:19:36 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/users/current"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/current" for ::1 at 2020-09-22 21:20:13 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/users/current"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/current" for ::1 at 2020-09-22 21:21:32 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 25ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/user_token" for ::1 at 2020-09-22 21:21:42 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/user_token"):
+  
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/current" for ::1 at 2020-09-22 21:22:14 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:22:19 +1000
+Processing by UserTokenController#create as */*
+Completed 400 Bad Request in 38ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: auth):
+  
+actionpack (5.2.4.4) lib/action_controller/metal/strong_parameters.rb:445:in `require'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:44:in `auth_params'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:31:in `entity'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:13:in `authenticate'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:426:in `block in make_lambda'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `each'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.4) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.4) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.4) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.4) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.4) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/current" for ::1 at 2020-09-22 21:28:36 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:28:41 +1000
+Processing by UserTokenController#create as */*
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: auth):
+  
+actionpack (5.2.4.4) lib/action_controller/metal/strong_parameters.rb:445:in `require'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:44:in `auth_params'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:31:in `entity'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:13:in `authenticate'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:426:in `block in make_lambda'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `each'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.4) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.4) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.4) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.4) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.4) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/current" for ::1 at 2020-09-22 21:29:17 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:29:40 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:29:53 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:30:54 +1000
+Processing by UserTokenController#create as */*
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: auth):
+  
+actionpack (5.2.4.4) lib/action_controller/metal/strong_parameters.rb:445:in `require'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:44:in `auth_params'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:31:in `entity'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:13:in `authenticate'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:426:in `block in make_lambda'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `each'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.4) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.4) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.4) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.4) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.4) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/current" for ::1 at 2020-09-22 21:31:32 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:31:39 +1000
+Processing by UserTokenController#create as */*
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: auth):
+  
+actionpack (5.2.4.4) lib/action_controller/metal/strong_parameters.rb:445:in `require'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:44:in `auth_params'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:31:in `entity'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:13:in `authenticate'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:426:in `block in make_lambda'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `each'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.4) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.4) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.4) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.4) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.4) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/current" for ::1 at 2020-09-22 21:34:53 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 20ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:34:56 +1000
+Processing by UserTokenController#create as */*
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: auth):
+  
+actionpack (5.2.4.4) lib/action_controller/metal/strong_parameters.rb:445:in `require'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:44:in `auth_params'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:31:in `entity'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:13:in `authenticate'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:426:in `block in make_lambda'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `each'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.4) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.4) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.4) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.4) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.4) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/current" for ::1 at 2020-09-22 21:35:48 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:35:54 +1000
+Processing by UserTokenController#create as */*
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: auth):
+  
+actionpack (5.2.4.4) lib/action_controller/metal/strong_parameters.rb:445:in `require'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:44:in `auth_params'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:31:in `entity'
+knock (2.1.1) app/controllers/knock/auth_token_controller.rb:13:in `authenticate'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:426:in `block in make_lambda'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `each'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.2.4.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.4) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.4) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.4) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.4) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.4) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.4) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.4) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.4) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.4) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.4) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.4) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.4) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.4) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.4) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.4) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/current" for ::1 at 2020-09-22 21:39:56 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:40:05 +1000
+Processing by UserTokenController#create as */*
+  Parameters: {"auth"=>{"email"=>"chris@ga.com", "password"=>"[FILTERED]"}, "user_token"=>{"auth"=>{"email"=>"chris@ga.com", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (27.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "chris@ga.com"], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 404 Not Found in 203ms (ActiveRecord: 111.5ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:40:30 +1000
+Processing by UserTokenController#create as */*
+  Parameters: {"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}, "user_token"=>{"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (19.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "chris@ga.co"], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 201 Created in 417ms (Views: 0.5ms | ActiveRecord: 56.9ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:40:58 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:41:02 +1000
+Processing by UserTokenController#create as */*
+  Parameters: {"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}, "user_token"=>{"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "chris@ga.co"], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 201 Created in 320ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:41:02 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:42:27 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:42:32 +1000
+Processing by UserTokenController#create as */*
+  Parameters: {"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}, "user_token"=>{"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "chris@ga.co"], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 201 Created in 341ms (Views: 0.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:42:33 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:42:57 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:43:00 +1000
+Processing by UserTokenController#create as */*
+  Parameters: {"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}, "user_token"=>{"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "chris@ga.co"], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 201 Created in 316ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:43:01 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:43:45 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:43:52 +1000
+Processing by UserTokenController#create as */*
+  Parameters: {"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}, "user_token"=>{"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "chris@ga.co"], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 201 Created in 393ms (Views: 0.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:43:53 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:45:37 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:45:44 +1000
+Processing by UserTokenController#create as */*
+  Parameters: {"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}, "user_token"=>{"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "chris@ga.co"], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 201 Created in 326ms (Views: 1.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:45:44 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:46:39 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (9.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 55ms (Views: 6.0ms | ActiveRecord: 9.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:46:44 +1000
+Processing by UserTokenController#create as */*
+  Parameters: {"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}, "user_token"=>{"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (6.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "chris@ga.co"], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 201 Created in 325ms (Views: 2.4ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:46:44 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 21ms (Views: 0.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:47:29 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (6.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 10ms (Views: 0.7ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:47:39 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 26ms (Views: 5.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:47:56 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 5ms (Views: 1.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:47:57 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 8ms (Views: 1.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:48:20 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:49:54 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 10ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:50:00 +1000
+Processing by UserTokenController#create as */*
+  Parameters: {"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}, "user_token"=>{"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "chris@ga.co"], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 201 Created in 325ms (Views: 2.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:50:00 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 6ms (Views: 1.5ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 21:50:22 +1000
+Processing by UserTokenController#create as */*
+  Parameters: {"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}, "user_token"=>{"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "chris@ga.co"], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 201 Created in 314ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:50:22 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 21:50:33 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:10:57 +1000
+Processing by UsersController#current as */*
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `first_name' for nil:NilClass):
+  
+app/controllers/users_controller.rb:4:in `current'
+Started GET "/users/current" for ::1 at 2020-09-22 22:11:31 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 30ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:15:11 +1000
+Processing by UsersController#current as */*
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `first_name' for nil:NilClass):
+  
+app/controllers/users_controller.rb:4:in `current'
+Started GET "/users/current" for ::1 at 2020-09-22 22:16:21 +1000
+Processing by UsersController#current as */*
+No template found for UsersController#current, rendering head :no_content
+Completed 204 No Content in 78ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:16:42 +1000
+Processing by UsersController#current as */*
+No template found for UsersController#current, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:16:48 +1000
+Processing by UsersController#current as */*
+No template found for UsersController#current, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:17:29 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 32ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:17:49 +1000
+Processing by UsersController#current as */*
+Completed 200 OK in 20ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:19:05 +1000
+Processing by UsersController#current as */*
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:19:50 +1000
+Processing by UsersController#current as */*
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:19:56 +1000
+Processing by UsersController#current as */*
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 22:20:08 +1000
+Processing by UserTokenController#create as */*
+  Parameters: {"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}, "user_token"=>{"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "chris@ga.co"], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 201 Created in 531ms (Views: 0.7ms | ActiveRecord: 138.2ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:20:09 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/user_token" for ::1 at 2020-09-22 22:20:12 +1000
+Processing by UserTokenController#create as */*
+  Parameters: {"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}, "user_token"=>{"auth"=>{"email"=>"chris@ga.co", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "chris@ga.co"], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 201 Created in 361ms (Views: 0.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:20:13 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:21:51 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 200 OK in 11ms (Views: 0.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:22:44 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 200 OK in 54ms (Views: 3.5ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:23:21 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/current" for ::1 at 2020-09-22 22:30:30 +1000
+Processing by UsersController#current as */*
+  [1m[36mUser Load (43.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ /Users/Chris/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Completed 200 OK in 303ms (Views: 2.0ms | ActiveRecord: 44.8ms)
+
+
