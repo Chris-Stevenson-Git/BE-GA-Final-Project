@@ -62,5 +62,28 @@ c1 = Chore.create(
   household_id: h1.id,
   frequency: 1
 )
+c2 = Chore.create(
+  name: 'Mow the lawn',
+  location: 'Outside',
+  est_time: 15,
+  user_id: u1.id,
+  household_id: h1.id,
+  frequency: 1
+)
+c3 = Chore.create(
+  name: 'Shampoo the dog',
+  location: 'Kitchen',
+  est_time: 15,
+  user_id: u2.id,
+  household_id: h1.id,
+  frequency: 1
+)
 
 puts "Created #{ Chore.count } Chores.."
+
+
+puts 'Associating households with users'
+
+h1.users << u1 << u2
+h2.users << u3
+h3.users << u4
