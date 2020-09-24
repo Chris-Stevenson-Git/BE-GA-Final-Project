@@ -38,13 +38,16 @@ print "Creating Households..."
 Household.destroy_all
 
 h1 = Household.create(
-  name: 'Stevenson Household'
+  name: 'Stevenson Household',
+  owner: u1.id
 )
 h2 = Household.create(
-  name: 'Textchimp Treehouse'
+  name: 'Textchimp Treehouse',
+  owner: u3.id
 )
 h3 = Household.create(
-  name: 'Z Space'
+  name: 'Z Space',
+  owner: u4.id
 )
 
 puts "Created #{ Household.count } Households.."
@@ -85,5 +88,5 @@ puts "Created #{ Chore.count } Chores.."
 puts 'Associating households with users'
 
 h1.users << u1 << u2
-h2.users << u3
+h2.users << u3 << u1
 h3.users << u4

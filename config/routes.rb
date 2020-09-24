@@ -9,5 +9,11 @@ Rails.application.routes.draw do
   #Household routes
   get '/my_households' => 'households#my_households'
   get '/household/:id' => 'households#details'
+  post '/add_member_to_household' => 'households#add_member'
+
+  #Chores Routes
+  post '/add_chore_to_household' => 'chores#add_chore'
+  post 'del_chores' => 'chores#delete'
+  patch 'complete_chores' => 'chores#complete'
 
 end
